@@ -1,0 +1,35 @@
+<mjml>
+
+  <mj-head>
+    <mj-font name="Raleway" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" />
+    <mj-attributes>
+      <mj-text color="#555" font-size="16px" line-height="1.7" />
+    </mj-attributes>
+
+  </mj-head>
+
+  <mj-body background-color="#eff2f3">
+
+    <mj-include path="./header.mjml" />
+
+    <mj-section background-color="#fff" border-radius="5px">
+
+      <mj-column>
+        <mj-text align="left">
+          <h2 align="center" style="margin-top: 0;">Welcome to EventCheckin</h2>
+          <p>
+          	Hello Shashika,<br/><br/>
+            Congrats! You have successfully joined our website. Please reset your password by clicking on the below link. Good luck!<br/>
+          </p>
+        </mj-text>
+        <mj-button href="#" font-family="Helvetica" background-color="#573796" color="white">
+          Reset Your Password
+         </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./footer.mjml" />
+
+  </mj-body>
+
+</mjml>
