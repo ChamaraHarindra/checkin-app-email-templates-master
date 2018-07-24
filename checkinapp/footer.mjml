@@ -1,9 +1,11 @@
-<mj-section>
-
-  <mj-column>
-    <mj-text align="center">
-      This is the footer
-    </mj-text>
+<mj-section vertical-align="middle">
+	<mj-column>
+		
+    <mj-social icon-size="30px" mode="horizontal">
+          <mj-social-element name="facebook" href="https://mjml.io/" background-color="#4d4d4d"></mj-social-element>
+          <mj-social-element name="google" href="https://mjml.io/" background-color="#4d4d4d"></mj-social-element>
+          <mj-social-element  name="instagram" href="https://mjml.io/" background-color="#4d4d4d"></mj-social-element>
+        </mj-social>
   </mj-column>
 
 </mj-section>

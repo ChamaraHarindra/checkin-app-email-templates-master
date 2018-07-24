@@ -1,10 +1,14 @@
 <mjml>
 
   <mj-head>
-    <mj-font name="Raleway" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" />
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" />
     <mj-attributes>
       <mj-text color="#555" font-size="16px" line-height="1.7" />
     </mj-attributes>
+    <mj-style inline="inline">
+      .link-nostyle { color: inherit; text-decoration: none; } .link { color: #573796; text-decoration: none; } h2 { margin-bottom: 5px; margin-top: 10px; }
+
+    </mj-style>
 
   </mj-head>
 
@@ -12,19 +16,19 @@
 
     <mj-include path="./header.mjml" />
 
-    <mj-section background-color="#fff" border-radius="5px">
+    <mj-hero background-color="#ffffff" background-url="https://eventcheckin.app/img/email/welcome.jpg" padding-bottom="27px" padding-top="0" mode="fixed-height" height="300px">
+    </mj-hero>
 
+    <mj-section background-color="#fff" border-radius="5px">
       <mj-column>
         <mj-text align="left">
-          <h2 align="center" style="margin-top: 0;">Welcome to EventCheckin</h2>
           <p>
-          	Hello Shashika,<br/><br/>
-            Congrats! You have successfully joined our website. Please reset your password by clicking on the below link. Good luck!<br/>
+            Hello Shashika,<br/><br/> Congrats! You have successfully joined our website. Please reset your password by clicking on the below link. Good luck!<br/>
           </p>
         </mj-text>
         <mj-button href="#" font-family="Helvetica" background-color="#573796" color="white">
           Reset Your Password
-         </mj-button>
+        </mj-button>
       </mj-column>
     </mj-section>
 
